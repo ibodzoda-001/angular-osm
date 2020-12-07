@@ -24,7 +24,7 @@ Parameters, which you can pass to `osm-view` component.
 | `titleCurrentLocation` | `string = 'Current location'` |
 | `showDebugInfo` | `boolean` |
 | `opacity` | `number` | 
-| `zoom` | `number | 
+| `zoom` | `number` | 
  
  
 Parameters, which can be emitted from component

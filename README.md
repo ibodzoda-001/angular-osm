@@ -27,7 +27,7 @@ Parameters, which you can pass to `osm-view` component.
 | `zoom` | `number` | 
  
  
-Parameters, which can be emitted from component
+Parameters, which can be emitted from component.
 | Property       | Type                | Description |
 | ------------- |:------------------:|:------------------:|
 | `onMapCoordinatesChange`    | `any`    | 

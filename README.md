@@ -7,45 +7,29 @@ Using osm in Angular project
 
 ## Component parameters
 Parameters, which you can pass to `osm-view` component.
-```javascript
-  @Input()
-  changeLocation: boolean;
 
-  @Input()
-  width: string;
-  @Input()
-  height: string;
+| Property       | Type                | Description |
+| ------------- |:------------------:| :------------------:|
+| `changeLocation`    | `boolean`    | 
+| `width`    | `string` |
+| `height`  | `string`         |
+| `latitude` | `number` |
+| `longitude` | `number` |
+| `latitude` | `number` |
+| `longitudePointer` | `number` |
+| `showControlsZoom` | `boolean` |
+| `titleZoomIn` | `string = 'Zoom in'` |
+| `titleZoomOut` | `string = 'Zoom out'` |
+| `showControlsCurrentLocation` | `boolean` |
+| `titleCurrentLocation` | `string = 'Current location'` |
+| `showDebugInfo` | `boolean` |
+| `opacity` | `number` | 
+| `zoom` | `number | 
+ 
+ 
+Parameters, which can be emitted from component
+| Property       | Type                | Description |
+| ------------- |:------------------:|:------------------:|
+| `onMapCoordinatesChange`    | `any`    | 
+| `addressChanged`  | `string`         |
 
-  @Input()
-  latitude: number;
-  @Input()
-  longitude: number;
-
-  @Input()
-  latitudePointer: number;
-  @Input()
-  longitudePointer: number;
-
-  @Input()
-  showControlsZoom: boolean;
-  @Input()
-  titleZoomIn = 'Zoom in';
-  @Input()
-  titleZoomOut = 'Zoom out';
-  @Input()
-  showControlsCurrentLocation: boolean;
-  @Input()
-  titleCurrentLocation = 'Current location';
-
-  @Input()
-  showDebugInfo: boolean;
-  @Input()
-  opacity = 1;
-  @Input()
-  zoom = 14;
-
-  @Output() onMapCoordinatesChange = new EventEmitter<any>();
-
-  @Output()
-  addressChanged = new EventEmitter<string>();
-```
